@@ -1,0 +1,148 @@
+@import 'utilities';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+header{
+    background-color: $primary-color;
+    color: $white-color;
+    padding: 25px;
+    font-size: 2rem;
+}
+
+header nav img{
+    width: 10%;
+}
+
+header li{
+    padding: 10px;
+}
+
+.hero{
+    font-size: 7rem;
+
+    p{
+        margin-right: 10rem;
+    }
+
+    span{
+        font-size: 3rem;
+    }
+
+    img{
+        width: 40%;
+    }
+}
+
+
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+    color: $primary-color;
+    padding: 20px;
+    z-index: 1;
+}
+
+marquee {
+    color: $primary-color;
+    font-size: 1.5rem;
+}
+
+.jone{
+    background-color: $milkly-white;
+
+    img{
+        width: 55%;
+    }
+
+    div{
+        width: 40%;
+        margin-left: 40px;
+    }
+
+    h2{
+      color: $primary-color;  
+      font-size: 4rem;
+      line-height: 3.9rem;
+    }
+
+    p{
+        margin: 3rem 0;
+        font-size: 2rem;
+    }
+}
+
+.featured{
+    padding: 40px;
+    color: $primary-color;
+    background-color: #fff;
+
+    .featured-inner{
+        justify-content: space-between;
+    }
+
+    a{
+        width: 15%;
+    }
+}
+
+.locations{
+    justify-content: space-between;
+    background-color: $primary-color;
+    color: #fff;
+
+    h2{
+        text-transform: uppercase;
+        font-size: 5rem;
+        line-height: 4rem;
+    }
+
+    p{
+        // font-size: .8rem;
+        margin: 25px 0;
+    }
+
+    a{
+        margin: 40px 0 0;
+    }
+
+    >:first-child{
+        width: 40%;
+        margin-left: 40px;
+    }
+
+    span{
+        display: block;
+        margin: 10px 0;
+    }
+
+    img{
+        width: 50%;
+    }
+}
+
+.jone-sisters{
+    background-color: $milkly-white;
+    padding-top: 30px;
+
+    >:first-child{
+        color: $primary-color;
+        font-size: 4.5rem;
+        margin-bottom: 20px;
+        line-height: 5rem;
+
+        h3{
+            font-size: 1rem;
+        }
+    }
+}
