@@ -27,12 +27,14 @@ header li{
 }
 
 .hero{
-    font-size: 7rem;
+    font-size: 3rem; 
 
-    p{
+    h1{
+        text-transform: uppercase;
         margin-right: 10rem;
+        // line-height: 7rem;
     }
-
+    
     span{
         font-size: 3rem;
     }
@@ -133,7 +135,7 @@ marquee {
 
 .jone-sisters{
     background-color: $milkly-white;
-    padding-top: 30px;
+    padding: 30px;
 
     >:first-child{
         color: $primary-color;
@@ -145,4 +147,39 @@ marquee {
             font-size: 1rem;
         }
     }
+
+    .jone-sisters-inner{
+        // justify-content: space-between;
+
+        > :first-child{
+            margin: 200px 150px 0 0;
+        }
+
+        img{
+            width: 40%;
+        }
+    }
+
+  
+
+    .story{
+        flex-direction: column;
+        // align-content: flex-end;
+        align-items: center;
+        width: 45%;
+
+        p{
+            margin: 270px 0 20px 0;
+            font-weight: bold;
+        }
+
+        img{
+            width: 100%;
+        }
+
+        a{
+            justify-self: right;
+        }
+    }
 }
+
